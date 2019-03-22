@@ -35,6 +35,7 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xaml" />
@@ -42,7 +43,6 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +57,10 @@
     <Compile Include="Numeric\NuLI.cs" />
     <Compile Include="Numeric\NumericConvertions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WPF\Converters\InverseBoolConverter.cs" />
+    <Compile Include="WPF\Converters\ObservableStringCollectionToMultiLineStringConverter.cs" />
+    <Compile Include="WPF\Converters\RatioConverter.cs" />
+    <Compile Include="WPF\Converters\StringFormatConverter.cs" />
     <Compile Include="WPF\MarkupExtensions\EnumExtensions\EnumToIntItemsSource.cs" />
     <Compile Include="WPF\MarkupExtensions\EnumExtensions\EnumToItemsSource.cs" />
     <Compile Include="WPF\MarkupExtensions\EnumExtensions\EnumToStringItemsSource.cs" />
@@ -64,5 +68,6 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
