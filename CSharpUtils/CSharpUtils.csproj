@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +49,9 @@
     <Compile Include="Numeric\NuLI.cs" />
     <Compile Include="Numeric\NumericConvertions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WPF\MarkupExtensions\EnumExtensions\EnumToIntItemsSource.cs" />
+    <Compile Include="WPF\MarkupExtensions\EnumExtensions\EnumToItemsSource.cs" />
+    <Compile Include="WPF\MarkupExtensions\EnumExtensions\EnumToStringItemsSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
