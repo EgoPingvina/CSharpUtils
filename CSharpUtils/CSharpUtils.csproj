@@ -49,6 +49,7 @@
     <Compile Include="Extensions\CRC.cs" />
     <Compile Include="Extensions\EnumExt.cs" />
     <Compile Include="Extensions\FluentExt.cs" />
+    <Compile Include="Extensions\ICollectionExt.cs" />
     <Compile Include="Numeric\NuLI.cs" />
     <Compile Include="Numeric\NumericConvertions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
