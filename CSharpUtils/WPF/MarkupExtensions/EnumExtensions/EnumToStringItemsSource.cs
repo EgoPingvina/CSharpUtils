@@ -4,6 +4,17 @@
     using System.Linq;
     using System.Windows.Markup;
 
+    /* Example:
+     * 
+     * 
+     * <UserControl xmlns:extxaml="clr-namespace:CSharpUtils.WPF.MarkupExtensions.EnumExtensions"
+     *              xmlns:enums="*path to your enum location*">
+     * ***
+     *  <ComboBox ItemsSource="{extxaml:EnumToStringItemsSource {x:Type enums:*enum name*}}"/>
+     *  ***
+     *  </UserControl>
+     */
+
     public class EnumToStringItemsSource : MarkupExtension
     {
         private readonly Type type;
